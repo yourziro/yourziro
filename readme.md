@@ -1,5 +1,5 @@
 ```readme
-fauzira alpiandi (fwzyrln_)
+fauzira alpiandi
 ```
 
 ```readme
