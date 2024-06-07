@@ -1,1 +1,0 @@
-<a href="https://www.flaticon.com/free-animated-icons/vlogger" title="vlogger animated icons">Vlogger animated icons created by Freepik - Flaticon</a>
