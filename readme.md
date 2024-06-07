@@ -1,5 +1,5 @@
 ```readme
-just an enthusiastic
+just an enthusiastic...
 ```
 
 ```readme
