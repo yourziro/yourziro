@@ -12,14 +12,33 @@ thirsty for knowledge and pursued by curiosity.
 ```
 
 ```javascript
-const aboutMe = {
-  name: "Nama Anda",
-  dev: ["JavaScript", "CSS", "HTML"],
-};
-
-function perkenalan() {
-  return `Halo! Nama saya ${aboutMe.name}. Saya seorang ${aboutMe.pekerjaan} yang tinggal di ${aboutMe.lokasi}. Saya tertarik dengan ${aboutMe.hobi.join(", ")} dan saat ini sedang belajar ${aboutMe.belajar.join(", ")}.`;
+interface Profile {
+  username: string;
+  name: string;
+  bio: string;
+  location: string;
+  email: string;
+  website: string;
+  social: { [key: string]: string };
+  skills: string[];
+  projects: { name: string; url: string }[];
+  education: { degree: string; university: string; graduationYear: number };
+  workExperience: { title: string; company: string; startDate: string }[];
 }
 
-console.log(perkenalan());
+const profile: Profile = {
+  username: "username",
+  name: "Nama Anda",
+  bio: "Deskripsi singkat tentang Anda",
+  location: "Lokasi Anda",
+  email: "email@example.com",
+  website: "https://websiteanda.com",
+  social: { twitter: "@username", linkedin: "https://www.linkedin.com/in/username" },
+  skills: ["JavaScript", "Node.js", "React"],
+  projects: [{ name: "Project 1", url: "https://github.com/username/project1" }],
+  education: { degree: "Gelar Anda", university: "Nama Universitas", graduationYear: 2022 },
+  workExperience: [{ title: "Pekerjaan Anda", company: "Nama Perusahaan", startDate: "Jan 2020" }],
+};
+
+export default profile;
 ```
