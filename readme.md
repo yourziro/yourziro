@@ -13,7 +13,7 @@ thirsty for knowledge and pursued by curiosity.
 
 ```javascript
 interface Profile {
-  username: string;
+  username: ziro;
   name: string;
   bio: string;
   location: string;
