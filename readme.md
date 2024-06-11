@@ -15,7 +15,7 @@ thirsty for knowledge and pursued by curiosity.
 const profile = {
   name: "Fauzira Alpiandi",
   role: "Frontend Engineer",
-  interests: [ "Web Development", "UIX", "Mobile App" ],
+  interests: [ "WEB", "UIX", "Mobile App" ],
   favLang: [ "Kotlin", "JavaScript", "CSS", "HTML" ],
   tech: [ "React", "Node.js" ]
 };
